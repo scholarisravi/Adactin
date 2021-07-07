@@ -1,0 +1,188 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-04T10:24:44.498Z",
+        "line": 11,
+        "name": "To validate the login using valid credentials",
+        "description": "",
+        "id": "to-validate-login-functionality;to-validate-the-login-using-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4971035300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Adactin login page",
+            "match": {
+              "location": "Loginsteps.user_is_in_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163844800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid \"Scholarisravi\" and \"May2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Scholarisravi\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"May2021\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Loginsteps.user_enter_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 786845200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click login button",
+            "match": {
+              "location": "Loginsteps.user_click_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-04T10:24:50.449Z",
+        "line": 19,
+        "name": "Verify the search hotel page",
+        "description": "",
+        "id": "to-validate-login-functionality;verify-the-search-hotel-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 832099200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user select hotel details \"Sydney\",\"Hotel Creek\",\"Standard\",\"2 - Two\",\"2 - Two\" and \"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 84
+                }
+              ],
+              "location": "Loginsteps.user_select_hotel_details_and(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1102619900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click search button",
+            "match": {
+              "location": "Loginsteps.user_click_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-04T10:24:52.391Z",
+        "line": 33,
+        "name": "fill the required details",
+        "description": "",
+        "id": "to-validate-login-functionality;fill-the-required-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 790265000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user has to fill the details \"Ravishankar\",\"Saravanan\",\"Chennai\",\"2242652566451234\",\"American Express\",\"January\",\"2022\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ravishankar\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Saravanan\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"2242652566451234\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"January\"",
+                  "offset": 103
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 113
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 124
+                }
+              ],
+              "location": "Loginsteps.user_has_to_select_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "To validate Login Functionality",
+    "description": "",
+    "id": "to-validate-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:Adactin.feature",
+    "tags": []
+  }
+]
